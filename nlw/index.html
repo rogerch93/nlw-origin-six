@@ -10,6 +10,9 @@
     <!--ICONES-->
     <link rel="stylesheet" href="assets/style.css">
 
+     <!--SWIPER-->
+     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
 
@@ -39,9 +42,12 @@
         <div class="toggle icon-menu"></div>
         <div class="toggle icon-close"></div>
       </nav>
-    </header>
+  </header>
+  
+  <main>
 
-    <main>
+    <!--HOME-->
+
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -62,7 +68,7 @@
       </section>
 
       <div class="divider-1"></div>
-
+    <!--ABOUT-->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -81,6 +87,7 @@
 
       <div class="divider-2"></div>
 
+    <!--SERVICES-->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -110,6 +117,71 @@
 
     </main>
 
+     <div class="divider-1"></div>
+
+
+    <!--TESTIMONIALS-->
+    <section class="section" id="testimonials">
+      <div class="container grid">
+        <header>
+          <h2>Depoimentos de quem ja passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt deleniti, nemo molestiae consequatur asperio
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="Wanessa Souza">
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>  
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt deleniti, nemo molestiae consequatur asperio
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Franciele Venega">
+                  Franciele Venega
+                </cite>
+              </blockquote>
+            </div> 
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt deleniti, nemo molestiae consequatur asperio
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="Valeska Fabris">
+                  Valeska Fabris
+                </cite>
+              </blockquote>
+            </div> 
+          </div>
+
+           <!-- If we need pagination -->
+           <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section>
+   
+   <!-- swiper -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--CONTACTS-->
     <script src="main.js"></script>
   </body>
 </html>
